@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+*{
+  overflow: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  background-image: url(./images/ques1.png);
+  background-size: cover;
+  /* background-color: blue; */
+  min-height: 98.5vh;
+  border: 12px solid rgba(0, 0, 0, 0.66);
+  padding: 5px;
+  /* scrollbar-width: thin; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Header-text{
+  text-transform: uppercase;
+  font-size: 30px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Home{
   display: flex;
   flex-direction: column;
+  /* justify-content: space-between; */
   align-items: center;
+}
+
+.Home .Textfield TextField{
+  /* background-color: aqua; */
+ width: 500px;
+  text-align: center;
+}
+.Home .img img{
+  width: 37vw;
+  min-width: 200px;
+  /* margin-top: 20px; */
+ margin-right: 10px;
+}
+.Home button{
+  background-color:green;
+  height:40px;
+  width:30vw;
+  border-radius: 4px;
+  text-align: center;
+  border-color:green;
+  text-transform: capitalize;
+  display: flex;
+  align-items:center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 80px;
+}
+
+.quizInfo{
+ display: flex;
+ justify-content: space-between;
+}
+.options{
+  display: flex;
+  flex-wrap: wrap;
+  flex:1;
+}
+.singleOption{
+  /* background-color: aqua; */
+  width: 45%;
+  min-width: 100px;
+  max-width: 500px;
+  height: 40px;
+  margin: 10px;
+  box-shadow: 0 0 2px black;
+}
+.Quit{
+  background-color: rgb(0, 8, 255);
   color: white;
+  width: 45%;
+  min-width: 100px;
+  max-width: 500px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.Next{
+  background-color: blue;
+  color: white;
+  width: 45%;
+  min-width: 100px;
+  max-width: 500px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
+.select{
+  background-color: green;
+  color: white;
+  box-shadow: 0 0 2px black;
+}
+.wrong{
+  background-color: red;
+  color: white;
+  box-shadow: 0 0 2px black;
+}
+.HomePage{
+  background-color: blue;
+  color: white;
+  width: 35%;
+  min-width: 100px;
+  max-width: 500px;
+  height: 40px;
+  margin-top: 20px;
+  /* margin-left: 10px; */
+  text-align: center;
+  /* margin: auto; */
+}
+.result{
+height: 70vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
