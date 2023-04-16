@@ -1,5 +1,5 @@
 *{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .App{
   background-image: url(./images/ques1.png);
